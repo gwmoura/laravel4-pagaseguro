@@ -1,10 +1,4 @@
-## Laravel PagSeguro
-
-[![Build Status](https://travis-ci.org/michaeldouglas/laravel-pagseguro.svg?branch=master)](https://travis-ci.org/michaeldouglas/laravel-pagseguro)
-[![Latest Unstable Version](https://poser.pugx.org/leaphly/cart-bundle/v/unstable.svg)](//packagist.org/packages/michael/laravelpagseguro)
-[![License](https://poser.pugx.org/leaphly/cart-bundle/license.svg)](https://packagist.org/packages/michael/laravelpagseguro)
-[![Code Climate](https://codeclimate.com/github/michaeldouglas/laravel-pagseguro/badges/gpa.svg)](https://codeclimate.com/github/michaeldouglas/laravel-pagseguro)
-[![Codacy Badge](https://www.codacy.com/project/badge/a358a57c8d4f4458b9d9055326f5a67c)](https://www.codacy.com/app/michaeldouglas010790/laravel-pagseguro)
+## Laravel 4 PagSeguro
 
 O laravel-pagseguro consome a API do PagSeguro e prove uma forma 
 simples de gerar o pagamento, a notificação e as transações de sua loja ou etc.
@@ -25,8 +19,14 @@ simples de gerar o pagamento, a notificação e as transações de sua loja ou e
 
 Abra o arquivo `composer.json` e insira a seguinte instrução:
 
+    "repositories": [
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/gwmoura/laravel4-pagseguro"
+	}
+    ],
     "require": {
-        "michael/laravelpagseguro": "dev-master"
+        "gwmoura/laravel4-pagseguro": "dev-master"
     }
 
 Após inserir no require o `Laravel PagSeguro`, você deverá executar o comando:
