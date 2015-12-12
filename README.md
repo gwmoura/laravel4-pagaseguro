@@ -22,7 +22,7 @@ Abra o arquivo `composer.json` e insira a seguinte instrução:
     "repositories": [
 	{
 	    "type": "vcs",
-	    "url": "https://github.com/gwmoura/laravel4-pagseguro"
+	    "url": "https://github.com/gwmoura/laravel4-pagseguro.git"
 	}
     ],
     "require": {
