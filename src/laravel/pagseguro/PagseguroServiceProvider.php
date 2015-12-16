@@ -21,7 +21,7 @@ use \laravel\pagseguro\Credentials\Credentials,
 class PagseguroServiceProvider extends ServiceProvider
 {
 
-    const CREDENTIALS_CONFIG = 'packages/michael/laravelpagseguro/laravelpagseguro';
+    const CREDENTIALS_CONFIG = 'packages/gwmoura/laravel4-pagseguro/laravelpagseguro';
 
     /**
      * Indicates if loading of the provider is deferred.
